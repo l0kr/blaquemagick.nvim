@@ -11,7 +11,9 @@ if exists("syntax_on")
 endif
 
 let g:colors_name="blaquemagick"
-
+" todo instead of using colorbuddy try to use hex values here with hi command
+" it should be guifg and guibg 
+" i.e. guifg=#969896 guibg=#3f4349
 hi ColorColumn  term=NONE cterm=NONE ctermfg=NONE ctermbg=242
 hi Comment      term=NONE cterm=NONE ctermfg=238  ctermbg=NONE
 hi Constant     term=NONE cterm=NONE ctermfg=101  ctermbg=NONE
